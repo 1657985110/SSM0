@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mapper.PetsMapper">
+    <!--    查询所有-->
+    <select id="findPets" resultType="Pets">
+         select * from pet
+     </select>
+    <!--    删除信息-->
+    <!--    <delete id="d   elete" parameterType="Integer">-->
+    <!--      delete from  pet where pid=#{pid}-->
+    <!--    </delete>-->
+    <!--    &lt;!&ndash;    增加信息&ndash;&gt;-->
+    <!--    <insert id="addPets">-->
+    <!--            insert into pet(pid,pname,price) values (null,#{pname},#{price})-->
+    <!--    </insert>-->
+    <!--    &lt;!&ndash;    修改信息&ndash;&gt;-->
+    <!--    <update id="updatePets" parameterType="Pets">-->
+    <!--        update pet set pname=#{pname},price=#{price} where pid=#{pid}-->
+    <!--    </update>-->
+    <!--    &lt;!&ndash;    根据pid查询一条信息&ndash;&gt;-->
+    <!--    <select id="findOne" parameterType="Integer" resultType="Pets">-->
+    <!--        select * from pet where pid=#{pid}-->
+    <!--    </select>-->
+</mapper>

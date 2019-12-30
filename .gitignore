@@ -1,0 +1,5 @@
+# Project exclude paths
+/SSM05-controller/target/
+/SSM05-entity/target/
+/SSM05-mapper/target/
+/SSM05-service/target/
